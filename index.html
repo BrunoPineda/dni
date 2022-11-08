@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+    <main class="container">
+        <form id="form">
+            <label type="text">
+      IP del usuario
+      <input required type="text" id="input" placeholder="Introduce aquí la api">
+      <small>Por ejemplo : 64.85.132.205</small>
+    </label>
+            <button id="submit">Buscar información de esta IP</button>
+        </form>
+
+        <div>
+            <pre id="results"></pre>
+        </div>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
